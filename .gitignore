@@ -1,0 +1,54 @@
+.gradle
+build/
+
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+**/.DS_Store
+.DS_Store
+
+log.txt
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/src/test/
+/.env
+/localvolumes/
+/restart.sh
+/secretsanta-firebase-adminsdk.json
+/db-data/
+/gen/
+/build/distributions/
+/build/scripts/
+/build/scriptsShadow/
+/build/snapshot/
+/monitoring/grafana/
