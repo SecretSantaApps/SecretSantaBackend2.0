@@ -45,7 +45,7 @@ services:
     image: prom/prometheus
     restart: always
     ports:
-      - "9090:9090"
+      - "127.0.0.1:9090:9090"
     volumes:
       - ./monitoring:/etc/prometheus/
     networks:
@@ -55,7 +55,7 @@ services:
   grafana:
     image: grafana/grafana:5.1.0
     ports:
-      - "127.0.0.1:3000:3000"
+      - "3000:3000"
     volumes:
       - ./monitoring/grafana:/var/lib/grafana
     networks:
